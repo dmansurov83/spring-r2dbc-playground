@@ -6,11 +6,13 @@ import org.springframework.boot.CommandLineRunner
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 import org.springframework.data.r2dbc.repository.config.EnableR2dbcRepositories
+import org.springframework.web.reactive.config.EnableWebFlux
 import reactor.core.publisher.Mono
 import ru.dmansurov.demo.person.Person
 import ru.dmansurov.demo.person.repository.PersonRepository
 
 @SpringBootApplication
+@EnableWebFlux
 class Application : CommandLineRunner {
 
     @Autowired
