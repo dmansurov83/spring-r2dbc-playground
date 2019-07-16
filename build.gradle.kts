@@ -33,6 +33,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor:1.3.0-M2")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.0-M2")
+    implementation("io.projectreactor.kotlin:reactor-kotlin-extensions:1.0.0.M1")
     implementation("io.r2dbc:r2dbc-postgresql:1.0.0.M7")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
